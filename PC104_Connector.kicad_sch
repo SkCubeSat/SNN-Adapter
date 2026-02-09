@@ -2024,6 +2024,10 @@
 		(uuid "1f49d4f8-e430-4d08-b14e-5a616529e496")
 	)
 	(no_connect
+		(at 113.03 50.8)
+		(uuid "2088a285-271c-49ef-9ad0-f92728800363")
+	)
+	(no_connect
 		(at 176.53 105.41)
 		(uuid "212d5078-76ff-4157-a9d6-07d12f138a34")
 	)
@@ -2272,10 +2276,6 @@
 		(uuid "d85487d1-34fe-4b7f-9533-82586ce60e1a")
 	)
 	(no_connect
-		(at 113.03 92.71)
-		(uuid "dada1b18-b397-407b-8230-cd8501d52faa")
-	)
-	(no_connect
 		(at 161.29 63.5)
 		(uuid "de77db0e-b213-419c-a680-f0c116f56d52")
 	)
@@ -2331,7 +2331,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 49.53) (xy 113.03 50.8)
+			(xy 113.03 91.44) (xy 113.03 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2617,7 +2617,7 @@
 	)
 	(global_label "RESESTREQ"
 		(shape input)
-		(at 113.03 49.53 90)
+		(at 113.03 91.44 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2627,7 +2627,7 @@
 		)
 		(uuid "3653232d-a42b-47b6-8ac7-b6597c915e28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 35.8407 90)
+			(at 113.03 77.7507 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2639,28 +2639,6 @@
 	)
 	(global_label "UART_RX"
 		(shape input)
-		(at 130.81 106.68 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "556f0b03-ef76-48b0-adbd-9eef6c07a717")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.81 117.769 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART_TX"
-		(shape input)
 		(at 130.81 90.17 90)
 		(fields_autoplaced yes)
 		(effects
@@ -2669,14 +2647,36 @@
 			)
 			(justify left)
 		)
-		(uuid "7ec6ba50-4e1e-4c8e-b671-da06f43654f4")
+		(uuid "556f0b03-ef76-48b0-adbd-9eef6c07a717")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.81 79.3834 90)
+			(at 130.81 79.081 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART_TX"
+		(shape input)
+		(at 130.81 106.68 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ec6ba50-4e1e-4c8e-b671-da06f43654f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.81 117.4666 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
