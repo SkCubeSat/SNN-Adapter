@@ -8,19 +8,20 @@
 		(title "Overview")
 	)
 	(lib_symbols)
-	(text "TE0724 Adapter"
+	(text "[1] Overview"
 		(exclude_from_sim no)
 		(at 146.812 27.686 0)
 		(effects
 			(font
-				(size 5.08 5.08)
-				(thickness 0.635)
+				(size 7.62 7.62)
+				(thickness 1.524)
+				(bold yes)
 			)
 		)
 		(uuid "8178cb01-8e75-4a59-9452-79799aa6864c")
 	)
 	(sheet
-		(at 138.684 42.672)
+		(at 139.446 49.53)
 		(size 17.018 12.446)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36,7 +37,7 @@
 		)
 		(uuid "1213a66d-8b93-46c4-b414-9452953a635e")
 		(property "Sheetname" "Micro SD"
-			(at 138.684 41.9604 0)
+			(at 139.446 48.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45,7 +46,7 @@
 			)
 		)
 		(property "Sheetfile" "Micro_SD.kicad_sch"
-			(at 138.684 55.7026 0)
+			(at 139.446 62.5606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62,7 +63,7 @@
 		)
 	)
 	(sheet
-		(at 97.79 40.64)
+		(at 98.552 47.498)
 		(size 27.94 50.038)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -78,7 +79,7 @@
 		)
 		(uuid "657822a5-55a5-4f02-b891-b1bece19e172")
 		(property "Sheetname" "TE0724 Connector"
-			(at 97.79 39.9284 0)
+			(at 98.552 46.7864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87,7 +88,7 @@
 			)
 		)
 		(property "Sheetfile" "TE0724_Connector.kicad_sch"
-			(at 97.79 91.2626 0)
+			(at 98.552 98.1206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -104,7 +105,7 @@
 		)
 	)
 	(sheet
-		(at 182.88 48.006)
+		(at 183.642 54.864)
 		(size 13.208 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -120,7 +121,7 @@
 		)
 		(uuid "6da06bd5-7839-43dd-9065-41aec0431e8e")
 		(property "Sheetname" "PC104 Connector"
-			(at 182.88 47.2944 0)
+			(at 183.642 54.1524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -129,7 +130,7 @@
 			)
 		)
 		(property "Sheetfile" "PC104_Connector.kicad_sch"
-			(at 182.88 80.3406 0)
+			(at 183.642 87.1986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -146,7 +147,7 @@
 		)
 	)
 	(sheet
-		(at 139.7 78.74)
+		(at 140.462 85.598)
 		(size 21.082 11.176)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -162,7 +163,7 @@
 		)
 		(uuid "8f9a2a35-dce8-46a6-bed9-0172c40628c2")
 		(property "Sheetname" "I2C Buffer"
-			(at 139.7 78.0284 0)
+			(at 140.462 84.8864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -171,7 +172,7 @@
 			)
 		)
 		(property "Sheetfile" "I2C_Buffer.kicad_sch"
-			(at 139.7 90.5006 0)
+			(at 140.462 97.3586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -188,7 +189,7 @@
 		)
 	)
 	(sheet
-		(at 99.568 101.092)
+		(at 100.33 107.95)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -203,8 +204,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "e51e9f8e-eaa3-4fda-9861-8320ec2d6a3c")
-		(property "Sheetname" "Mounting Holes"
-			(at 99.568 100.3804 0)
+		(property "Sheetname" "Mechanical"
+			(at 100.33 107.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -213,7 +214,7 @@
 			)
 		)
 		(property "Sheetfile" "MountingHoles.kicad_sch"
-			(at 99.568 105.4866 0)
+			(at 100.33 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)

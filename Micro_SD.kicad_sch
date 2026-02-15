@@ -782,13 +782,25 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Micro SD"
+	(rectangle
+		(start 95.25 47.244)
+		(end 201.168 110.49)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f2f03c0b-8985-4ae8-8743-350a2d860aa0)
+	)
+	(text "[4] Micro SD"
 		(exclude_from_sim no)
-		(at 140.462 23.622 0)
+		(at 146.304 28.702 0)
 		(effects
 			(font
-				(size 5.08 5.08)
-				(thickness 0.508)
+				(size 7.62 7.62)
+				(thickness 1.524)
 				(bold yes)
 			)
 		)

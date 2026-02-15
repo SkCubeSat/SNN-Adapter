@@ -4671,6 +4671,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 34.798 44.704)
+		(end 264.922 118.872)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d32600d1-f7d0-4aa3-bb86-524b1590e54d)
+	)
 	(text "MODE0"
 		(exclude_from_sim no)
 		(at 52.07 54.61 90)
@@ -4691,13 +4703,13 @@
 		)
 		(uuid "28b617b3-c4f3-4108-bb10-b0b73e380299")
 	)
-	(text "TE0724 Connector"
+	(text "[2] TE0724"
 		(exclude_from_sim no)
-		(at 153.416 25.654 0)
+		(at 147.066 27.432 0)
 		(effects
 			(font
-				(size 5.08 5.08)
-				(thickness 0.508)
+				(size 7.62 7.62)
+				(thickness 1.524)
 				(bold yes)
 			)
 		)

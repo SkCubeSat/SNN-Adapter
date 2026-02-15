@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.1,
-          "height": 1.65,
-          "width": 1.65
+          "drill": 0.4,
+          "height": 0.7,
+          "width": 0.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -651,7 +651,7 @@
     ],
     [
       "e51e9f8e-eaa3-4fda-9861-8320ec2d6a3c",
-      "Mounting Holes"
+      "Mechanical"
     ]
   ],
   "text_variables": {}
