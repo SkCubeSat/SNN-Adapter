@@ -5493,12 +5493,6 @@
 		(uuid "4abd1f53-8456-4e1c-8378-9b38cc77c003")
 	)
 	(junction
-		(at 266.7 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5aedc1ad-ee5b-4195-97c1-066dd5e435b1")
-	)
-	(junction
 		(at 245.11 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5509,18 +5503,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b8785aa-4b13-44fa-9865-5bffac70e59e")
-	)
-	(junction
-		(at 266.7 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0b0e51c-9c4d-47b7-8813-0e600c62443e")
-	)
-	(junction
-		(at 256.54 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fab3bc65-3941-4900-a6d7-4f6d0239dcbc")
 	)
 	(no_connect
 		(at 146.05 102.87)
@@ -6310,16 +6292,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 73.66) (xy 266.7 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e98ba01-f5c4-43c4-9706-bcfc02bc1963")
-	)
-	(wire
-		(pts
 			(xy 53.34 154.94) (xy 54.61 154.94)
 		)
 		(stroke
@@ -6480,16 +6452,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 73.66) (xy 275.59 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "800c6685-7309-4b37-8ec5-c544ce4ac4b7")
-	)
-	(wire
-		(pts
 			(xy 100.33 58.42) (xy 100.33 59.69)
 		)
 		(stroke
@@ -6517,16 +6479,6 @@
 			(type default)
 		)
 		(uuid "8f961cd8-8ab1-40b1-8a29-673c40d4f8d1")
-	)
-	(wire
-		(pts
-			(xy 256.54 66.04) (xy 266.7 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fb32b39-e7d1-414b-909d-50c516c6b284")
 	)
 	(wire
 		(pts
@@ -6650,6 +6602,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 73.66) (xy 256.54 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa7015d-9f4e-4649-8fff-bfb126a53549")
+	)
+	(wire
+		(pts
 			(xy 201.93 58.42) (xy 201.93 67.31)
 		)
 		(stroke
@@ -6747,16 +6709,6 @@
 			(type default)
 		)
 		(uuid "cd5889e2-1554-4cb0-aab4-6e3b5e87fe9c")
-	)
-	(wire
-		(pts
-			(xy 266.7 66.04) (xy 275.59 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce3024cd-6096-4f2d-acfb-f6a6c22f914c")
 	)
 	(wire
 		(pts
@@ -8981,186 +8933,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 275.59 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "50ecefbf-fabc-4df8-865d-7e62080e708b")
-		(property "Reference" "C5"
-			(at 279.146 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 279.146 70.612 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 276.5552 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 275.59 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 275.59 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Murata Electronics"
-			(at 275.59 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "GCM155R71H104KE02D"
-			(at 275.59 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1d48c930-6728-4813-94d7-a1d87009a18e")
-		)
-		(pin "2"
-			(uuid "36bd647c-534e-4104-ba46-d95c7226fb1a")
-		)
-		(instances
-			(project "adapter-pcb"
-				(path "/94da9b83-1146-4f01-8e34-8153765b0257/657822a5-55a5-4f02-b891-b1bece19e172"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 266.7 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5adf7a60-f706-47fb-b7a3-b980c5c02500")
-		(property "Reference" "#PWR044"
-			(at 266.7 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 266.7 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 266.7 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "67c1bc40-0491-4b16-9d16-6230232a8e06")
-		)
-		(instances
-			(project "adapter-pcb"
-				(path "/94da9b83-1146-4f01-8e34-8153765b0257/657822a5-55a5-4f02-b891-b1bece19e172"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 100.33 59.69 0)
 		(unit 1)
@@ -10532,8 +10304,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 266.7 69.85 0)
+		(lib_id "power:GND")
+		(at 256.54 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10541,31 +10313,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "fe2b17fd-f5bc-4757-959e-e052560ad472")
-		(property "Reference" "C6"
-			(at 269.494 68.58 0)
+		(fields_autoplaced yes)
+		(uuid "ed8e67f5-ca93-4a23-adc7-a4c51730d875")
+		(property "Reference" "#PWR044"
+			(at 256.54 81.28 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 268.732 70.612 0)
+		(property "Value" "GND"
+			(at 256.54 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 267.6652 73.66 0)
+		(property "Footprint" ""
+			(at 256.54 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10576,7 +10348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 69.85 0)
+			(at 256.54 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10586,30 +10358,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 266.7 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Murata Electronics"
-			(at 266.7 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "GCM155R71H104KE02D"
-			(at 266.7 69.85 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 256.54 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10620,15 +10370,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "110c0d65-82b6-40cf-ae69-018bde12a957")
-		)
-		(pin "2"
-			(uuid "9021aa21-83cf-4754-895b-67302ec6348e")
+			(uuid "b951b154-8cdd-4d46-9e35-4ed01e5d7533")
 		)
 		(instances
 			(project "adapter-pcb"
 				(path "/94da9b83-1146-4f01-8e34-8153765b0257/657822a5-55a5-4f02-b891-b1bece19e172"
-					(reference "C6")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
