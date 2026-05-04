@@ -713,7 +713,7 @@
         "uuid": "94da9b83-1146-4f01-8e34-8153765b0257"
       }
     ],
-    "used_designators": "#PWR44",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -738,12 +738,16 @@
       "I2C Buffer"
     ],
     [
-      "e51e9f8e-eaa3-4fda-9861-8320ec2d6a3c",
-      "Mechanical"
+      "31344ca3-2a78-4713-bdb1-c960a4cc0c0b",
+      "SD Level Shifter"
     ],
     [
       "cf109836-ab8e-48e3-a0ed-36c6666f071e",
-      "Level Shifter"
+      "UART Level Shifter"
+    ],
+    [
+      "e51e9f8e-eaa3-4fda-9861-8320ec2d6a3c",
+      "Mechanical"
     ]
   ],
   "text_variables": {},

@@ -858,18 +858,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 95.25 47.244)
-		(end 201.168 110.49)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "f2f03c0b-8985-4ae8-8743-350a2d860aa0")
-	)
 	(text "[4] Micro SD"
 		(exclude_from_sim no)
 		(at 146.304 28.702 0)
@@ -910,7 +898,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 74.93) (xy 128.27 74.93)
+			(xy 127 74.93) (xy 128.27 74.93)
 		)
 		(stroke
 			(width 0)
@@ -970,16 +958,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 72.39) (xy 107.95 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5387fb0e-0d0b-4e7a-ae1e-9811995db4a1")
-	)
-	(wire
-		(pts
 			(xy 127 80.01) (xy 128.27 80.01)
 		)
 		(stroke
@@ -997,6 +975,16 @@
 			(type default)
 		)
 		(uuid "6a7536cd-84e4-4780-b75b-a4ade5d24986")
+	)
+	(wire
+		(pts
+			(xy 127 72.39) (xy 128.27 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7104e140-857b-4cf0-8386-93deb6fb484f")
 	)
 	(wire
 		(pts
@@ -1020,7 +1008,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 69.85) (xy 128.27 69.85)
+			(xy 127 69.85) (xy 128.27 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1050,16 +1038,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 72.39) (xy 107.95 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dea97f89-c29d-4606-8abd-c33bc2981afa")
-	)
-	(wire
-		(pts
 			(xy 173.99 74.93) (xy 175.26 74.93)
 		)
 		(stroke
@@ -1078,203 +1056,71 @@
 		)
 		(uuid "ee367041-2159-441b-99c0-80058f15a0b1")
 	)
-	(global_label "SD-CMD"
-		(shape input)
-		(at 125.73 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "167e888d-3f75-4408-a507-707a9aef0650")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.7015 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SD-D0"
-		(shape input)
+	(hierarchical_label "SD-D0 LS"
+		(shape bidirectional)
 		(at 175.26 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "424ed8eb-c81c-42cf-9341-e21e21f17186")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.7766 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "0b2b6da9-f7be-4842-ad7b-73357374375b")
 	)
-	(global_label "SD-CCLK"
-		(shape input)
-		(at 127 80.01 180)
-		(fields_autoplaced yes)
+	(hierarchical_label "SD-D2 LS"
+		(shape bidirectional)
+		(at 127 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "79e3275b-0b9e-496d-9b87-548a06a4bfbc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.1248 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "14693088-5a28-4784-945e-787c4cf0e57e")
 	)
-	(global_label "SD-D1"
-		(shape input)
+	(hierarchical_label "SD-CMD LS"
+		(shape bidirectional)
+		(at 127 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "209baaa8-23e4-4f4b-ae79-9501553285e9")
+	)
+	(hierarchical_label "SD-D3 LS"
+		(shape bidirectional)
+		(at 127 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54aa8bd8-6144-4ae0-a594-2f5b978e33ed")
+	)
+	(hierarchical_label "SD-D1 LS"
+		(shape bidirectional)
 		(at 175.26 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "c02a12bf-16c5-4fa7-b502-deb80130269e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.7766 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "635ffa8d-086e-4d92-8867-b1352bd88d62")
 	)
-	(global_label "SD-D2"
-		(shape input)
-		(at 124.46 69.85 180)
-		(fields_autoplaced yes)
+	(hierarchical_label "SD-CCLK LS"
+		(shape bidirectional)
+		(at 127 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "fdf0ca9e-b102-426b-8779-e5c4ec69c252")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.9434 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 107.95 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f29cf85-b24f-41d4-923a-644da08b9ab3")
-		(property "Reference" "#PWR025"
-			(at 107.95 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 107.95 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "15eb48d2-e04c-4bbc-be5f-71d8245a1a78")
-		)
-		(instances
-			(project "adapter-pcb"
-				(path "/94da9b83-1146-4f01-8e34-8153765b0257/1213a66d-8b93-46c4-b414-9452953a635e"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "db11bc0a-b3f5-4e7b-a2d4-a123d9401798")
 	)
 	(symbol
 		(lib_id "power:GND")

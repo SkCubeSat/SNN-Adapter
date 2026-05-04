@@ -1867,18 +1867,121 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(rectangle
-		(start 95.504 44.958)
-		(end 207.01 134.112)
-		(stroke
-			(width 0)
-			(type dash)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
-		(fill
-			(type none)
-		)
-		(uuid "5af1e4be-8490-4861-a508-d3573dface02")
 	)
 	(text "[3] CSKB"
 		(exclude_from_sim no)
@@ -1903,6 +2006,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c6254b2-2bad-4ea7-a2cb-973a8c4c4260")
+	)
+	(junction
+		(at 160.02 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91017d1e-71e4-4716-9746-3097dab1ab82")
 	)
 	(no_connect
 		(at 142.24 58.42)
@@ -2432,149 +2541,71 @@
 		)
 		(uuid "fbf6ebd0-f4a3-458f-ad0e-0f2c3f7c5d11")
 	)
-	(global_label "I2C_SCL_CSKB"
-		(shape input)
+	(hierarchical_label "I2C_SCL_CSKB"
+		(shape output)
 		(at 129.54 99.06 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "16a40e12-6db3-4df8-b6b9-7ba2ed759287")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 82.5282 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "11fa377c-51de-46cc-8eee-cfe1defa0ec8")
 	)
-	(global_label "I2C_SDA_CSKB"
-		(shape input)
-		(at 132.08 99.06 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2d46b54b-9746-47a9-be1c-b19d22f32979")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.08 82.4677 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "RESESTREQ"
-		(shape input)
-		(at 119.38 99.06 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3653232d-a42b-47b6-8ac7-b6597c915e28")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 85.3707 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "UART_RX"
-		(shape input)
+	(hierarchical_label "UART-RXD LS"
+		(shape output)
 		(at 137.16 97.79 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "556f0b03-ef76-48b0-adbd-9eef6c07a717")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 86.701 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "3cfce159-fd82-444e-a6d4-8a626a124bfc")
 	)
-	(global_label "UART_TX"
+	(hierarchical_label "I2C_SDA_CSKB"
+		(shape bidirectional)
+		(at 132.08 99.06 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "49edcf4e-8406-470d-a9ab-0fa864261b14")
+	)
+	(hierarchical_label "UART-TXD LS"
 		(shape input)
 		(at 137.16 114.3 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "7ec6ba50-4e1e-4c8e-b671-da06f43654f4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 125.0866 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "4ac016e2-f251-4511-b1b4-1ab02b4ca4ce")
 	)
-	(global_label "SNN Enable"
-		(shape input)
+	(hierarchical_label "RESETREQ"
+		(shape output)
+		(at 119.38 99.06 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da92b637-aa4c-4974-82ed-2aeeef770838")
+	)
+	(hierarchical_label "ENABLE"
+		(shape output)
 		(at 124.46 114.3 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "c80d65d1-9f32-4b2f-b92a-c298b6bc628d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.46 128.4731 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "dc3e6ee5-ecb0-43aa-bb60-81f03d9a3ea3")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3133,6 +3164,83 @@
 			(project "adapter-pcb"
 				(path "/94da9b83-1146-4f01-8e34-8153765b0257/6da06bd5-7839-43dd-9065-41aec0431e8e"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 160.02 72.39 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "defc9df8-509a-4686-919b-79f66817f244")
+		(property "Reference" "#FLG01"
+			(at 160.02 74.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 160.02 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 160.02 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9439ef11-8cc9-4aa7-8916-52f4652ac709")
+		)
+		(instances
+			(project "adapter-pcb"
+				(path "/94da9b83-1146-4f01-8e34-8153765b0257/6da06bd5-7839-43dd-9065-41aec0431e8e"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
