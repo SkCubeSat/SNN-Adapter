@@ -1201,7 +1201,7 @@
 	)
 	(text "* EPAD disconnected following TEB0724"
 		(exclude_from_sim no)
-		(at 159.004 127.762 0)
+		(at 159.004 132.588 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1212,22 +1212,28 @@
 		(uuid "f8f93cc0-0ee7-4527-843e-c4ea7d8755a0")
 	)
 	(junction
+		(at 171.45 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f67108d-e4ff-4847-aa34-e90869f26ab5")
+	)
+	(junction
 		(at 128.27 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84464ad9-1465-4e17-a1f9-0ef3596fb46f")
 	)
 	(junction
+		(at 171.45 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "896a3590-3e11-44e1-b16d-06a5b0f16c24")
+	)
+	(junction
 		(at 170.18 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "940e71e2-9e0f-4c31-95b5-c9501b98430a")
-	)
-	(junction
-		(at 171.45 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "edfabe16-15b1-4a50-8749-3d61af28e86c")
 	)
 	(no_connect
 		(at 166.37 101.6)
@@ -1236,10 +1242,6 @@
 	(no_connect
 		(at 166.37 77.47)
 		(uuid "4d0a48be-532d-46c1-8b3c-136d942b35ee")
-	)
-	(no_connect
-		(at 166.37 121.92)
-		(uuid "79043c77-f6b5-4bf2-85c0-290d38896de4")
 	)
 	(no_connect
 		(at 166.37 86.36)
@@ -1309,6 +1311,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 121.92) (xy 171.45 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "266f3b47-0f00-430e-9f93-d8ddc0c15a62")
+	)
+	(wire
+		(pts
 			(xy 130.81 119.38) (xy 132.08 119.38)
 		)
 		(stroke
@@ -1329,7 +1341,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 119.38) (xy 171.45 120.65)
+			(xy 171.45 119.38) (xy 171.45 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1356,6 +1368,16 @@
 			(type default)
 		)
 		(uuid "5690ec38-d624-4d47-a21e-2e4ddb545531")
+	)
+	(wire
+		(pts
+			(xy 166.37 121.92) (xy 171.45 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e23ecc2-d899-4431-aa02-fd306ea6b3f1")
 	)
 	(wire
 		(pts
@@ -2365,7 +2387,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 120.65 0)
+		(at 171.45 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2376,7 +2398,7 @@
 		(fields_autoplaced yes)
 		(uuid "b111ce7d-31ec-4b4b-a8ac-01e4a6c52d89")
 		(property "Reference" "#PWR051"
-			(at 171.45 127 0)
+			(at 171.45 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2387,7 +2409,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 125.73 0)
+			(at 171.45 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2397,7 +2419,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 120.65 0)
+			(at 171.45 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2408,7 +2430,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 120.65 0)
+			(at 171.45 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2419,7 +2441,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 120.65 0)
+			(at 171.45 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
