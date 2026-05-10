@@ -1199,9 +1199,9 @@
 		)
 		(uuid "f6e7bc55-c366-45a4-acea-63411a63550d")
 	)
-	(text "* EPAD disconnected following TEB0724"
+	(text "* EPAD connected to GND"
 		(exclude_from_sim no)
-		(at 159.004 132.588 0)
+		(at 159.004 135.128 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1751,6 +1751,28 @@
 				)
 			)
 		)
+		(property "External Part Number" "595-TXS02612RTWR"
+			(at 113.03 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C140276"
+			(at 113.03 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "22"
 			(uuid "c5b29bd8-3659-4bf1-9348-8fcdc7159243")
 		)
@@ -2134,6 +2156,28 @@
 				)
 			)
 		)
+		(property "External Part Number" ""
+			(at 128.27 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 128.27 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "94e3aa15-1c77-4a50-ac80-f20f708cdf48")
 		)
@@ -2283,6 +2327,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 170.18 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "External Part Number" ""
+			(at 170.18 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 170.18 54.61 0)
 			(hide yes)
 			(show_name no)

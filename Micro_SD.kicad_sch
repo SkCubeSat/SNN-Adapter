@@ -1287,6 +1287,28 @@
 				)
 			)
 		)
+		(property "External Part Number" ""
+			(at 113.03 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 113.03 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7ce160a2-0f48-4ed1-b5da-c7aea143cb6a")
 		)
@@ -1346,7 +1368,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "DM3BT-DSF-PEJS"
+		(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=CL0609-0029-9-00&productname=DM3BT-DSF-PEJS&series=DM3&documenttype=Catalog&lang=en&documentid=D49662_en"
 			(at 128.27 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -1381,6 +1403,28 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "DM3BT-DSF-PEJS"
+			(at 128.27 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "External Part Number" "798-DM3BT-DSF-PEJS "
+			(at 128.27 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C597972"
 			(at 128.27 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -1585,6 +1629,28 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "GRT155R61A105KE01D"
+			(at 124.46 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "External Part Number" ""
+			(at 124.46 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 124.46 92.71 0)
 			(hide yes)
 			(show_name no)

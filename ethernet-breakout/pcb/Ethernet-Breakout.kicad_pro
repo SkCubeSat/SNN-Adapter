@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.254,
-          "height": 0.508,
-          "width": 0.508
+          "drill": 0.8,
+          "height": 1.6,
+          "width": 1.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -471,7 +471,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -493,7 +493,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "adapter-pcb.kicad_pro",
+    "filename": "Ethernet-Breakout.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -530,10 +530,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/Hunter/Desktop/gerber/",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "adapter-pcb.step",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -573,27 +573,9 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER_PART_NUMBER",
-          "name": "MANUFACTURER_PART_NUMBER",
-          "show": true
-        },
-        {
           "group_by": true,
           "label": "Value",
           "name": "Value",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Footprint",
-          "name": "Footprint",
           "show": true
         },
         {
@@ -615,66 +597,24 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
           "show": true
         },
         {
           "group_by": false,
-          "label": "MAXIMUM_PACKAGE_HEIGHT",
-          "name": "MAXIMUM_PACKAGE_HEIGHT",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "VENDOR",
-          "name": "VENDOR",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "External Part Number",
-          "name": "External Part Number",
-          "show": false
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
-      "sort_asc": false,
-      "sort_field": "${EXCLUDE_FROM_BOM}"
+      "name": "Default Editing",
+      "sort_asc": true,
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -720,9 +660,9 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "adapter-pcb.kicad_sch",
-        "name": "adapter-pcb",
-        "uuid": "94da9b83-1146-4f01-8e34-8153765b0257"
+        "filename": "Ethernet-Breakout.kicad_sch",
+        "name": "Ethernet-Breakout",
+        "uuid": "ace7cd23-b9a0-4d13-a610-a00b7f236059"
       }
     ],
     "used_designators": "",
@@ -730,36 +670,8 @@
   },
   "sheets": [
     [
-      "94da9b83-1146-4f01-8e34-8153765b0257",
-      "adapter-pcb"
-    ],
-    [
-      "657822a5-55a5-4f02-b891-b1bece19e172",
-      "TE0724 Connector"
-    ],
-    [
-      "6da06bd5-7839-43dd-9065-41aec0431e8e",
-      "CSKB"
-    ],
-    [
-      "1213a66d-8b93-46c4-b414-9452953a635e",
-      "Micro SD"
-    ],
-    [
-      "8f9a2a35-dce8-46a6-bed9-0172c40628c2",
-      "I2C Buffer"
-    ],
-    [
-      "31344ca3-2a78-4713-bdb1-c960a4cc0c0b",
-      "SD Level Shifter"
-    ],
-    [
-      "cf109836-ab8e-48e3-a0ed-36c6666f071e",
-      "UART Level Shifter"
-    ],
-    [
-      "e51e9f8e-eaa3-4fda-9861-8320ec2d6a3c",
-      "Mechanical"
+      "ace7cd23-b9a0-4d13-a610-a00b7f236059",
+      "Ethernet-Breakout"
     ]
   ],
   "text_variables": {},

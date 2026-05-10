@@ -1384,6 +1384,28 @@
 				)
 			)
 		)
+		(property "External Part Number" ""
+			(at 181.61 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 181.61 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "525b36fc-cbe5-4f87-9a0e-972412bf5aca")
 		)
@@ -1697,6 +1719,28 @@
 				)
 			)
 		)
+		(property "External Part Number" ""
+			(at 167.64 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 167.64 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b8f19e82-27a3-48bd-9a9c-4c331bccc6e2")
 		)
@@ -1790,6 +1834,28 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "GCM155R71H104KE02D"
+			(at 170.18 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "External Part Number" ""
+			(at 170.18 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 170.18 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -1905,6 +1971,28 @@
 			)
 		)
 		(property "MANUFACTURER" "  Texas Instruments"
+			(at 128.27 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "External Part Number" "595-TXS0102QDCURQ1"
+			(at 128.27 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C2652939"
 			(at 128.27 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -2180,6 +2268,28 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "GCM155R71H104KE02D"
+			(at 124.46 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "External Part Number" ""
+			(at 124.46 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 124.46 64.77 0)
 			(hide yes)
 			(show_name no)

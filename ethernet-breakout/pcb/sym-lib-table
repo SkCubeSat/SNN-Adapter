@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Ethernet_Connector")(type "KiCad")(uri "${KIPRJMOD}/Ethernet_Connector.kicad_sym")(options "")(descr ""))
+)
