@@ -7980,18 +7980,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "SS5-80-3.50-L-D-K-TR "
-			(at 97.79 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "External Part Number" ""
+		(property "External Part Number" "SS5-80-3.50-L-D-K-TR "
 			(at 97.79 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -9337,7 +9326,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "GCM155R71H104KE02D"
+		(property "External Part Number" "GCM188R71H104KA57J"
 			(at 256.54 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9348,18 +9337,7 @@
 				)
 			)
 		)
-		(property "External Part Number" ""
-			(at 256.54 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
+		(property "MPN" "C3011652"
 			(at 256.54 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10247,7 +10225,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "df549e2a-73e2-4658-9c26-0be7c4909a9c")
 		(property "Reference" "J3"

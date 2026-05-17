@@ -1276,7 +1276,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "GCM155R71H104KE02D"
+		(property "External Part Number" "GCM188R71H104KA57J"
 			(at 113.03 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -1287,18 +1287,7 @@
 				)
 			)
 		)
-		(property "External Part Number" ""
-			(at 113.03 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
+		(property "MPN" "C3011652"
 			(at 113.03 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -1402,18 +1391,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "DM3BT-DSF-PEJS"
-			(at 128.27 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "External Part Number" "798-DM3BT-DSF-PEJS "
+		(property "External Part Number" "DM3BT-DSF-PEJS"
 			(at 128.27 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -1628,7 +1606,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "GRT155R61A105KE01D"
+		(property "External Part Number" "GCM21BR71H105KA03L"
 			(at 124.46 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -1639,18 +1617,7 @@
 				)
 			)
 		)
-		(property "External Part Number" ""
-			(at 124.46 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
+		(property "MPN" "C126592"
 			(at 124.46 92.71 0)
 			(hide yes)
 			(show_name no)

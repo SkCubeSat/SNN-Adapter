@@ -2993,18 +2993,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "ESQ-126-39-G-D"
-			(at 152.4 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "External Part Number" ""
+		(property "External Part Number" "ESQ-126-39-G-D"
 			(at 152.4 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -3343,18 +3332,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "ESQ-126-39-G-D"
-			(at 152.4 63.5 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "External Part Number" ""
+		(property "External Part Number" "ESQ-126-39-G-D"
 			(at 152.4 63.5 90)
 			(hide yes)
 			(show_name no)

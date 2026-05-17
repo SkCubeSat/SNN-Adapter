@@ -1318,7 +1318,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 184.15 65.532 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1373,7 +1373,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "GCM155R71H104KE02D"
+		(property "External Part Number" "GCM188R71E105KA64D"
 			(at 181.61 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -1384,18 +1384,7 @@
 				)
 			)
 		)
-		(property "External Part Number" ""
-			(at 181.61 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
+		(property "MPN" "C85862"
 			(at 181.61 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -1719,7 +1708,7 @@
 				)
 			)
 		)
-		(property "External Part Number" ""
+		(property "External Part Number" "MCS0402MD1002BE100"
 			(at 167.64 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1730,7 +1719,18 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C2073498"
+			(at 167.64 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Vishay"
 			(at 167.64 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1833,7 +1833,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "GCM155R71H104KE02D"
+		(property "External Part Number" "GCM188R71H104KA57J"
 			(at 170.18 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -1844,18 +1844,7 @@
 				)
 			)
 		)
-		(property "External Part Number" ""
-			(at 170.18 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
+		(property "MPN" "C3011652"
 			(at 170.18 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -1959,17 +1948,6 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "TXS0102QDCURQ1"
-			(at 128.27 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MANUFACTURER" "  Texas Instruments"
 			(at 128.27 72.39 0)
 			(hide yes)
@@ -1981,7 +1959,7 @@
 				)
 			)
 		)
-		(property "External Part Number" "595-TXS0102QDCURQ1"
+		(property "External Part Number" "TXS0102QDCURQ1"
 			(at 128.27 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -2267,7 +2245,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "GCM155R71H104KE02D"
+		(property "External Part Number" "GCM188R71H104KA57J"
 			(at 124.46 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -2278,18 +2256,7 @@
 				)
 			)
 		)
-		(property "External Part Number" ""
-			(at 124.46 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
+		(property "MPN" "C3011652"
 			(at 124.46 64.77 0)
 			(hide yes)
 			(show_name no)
