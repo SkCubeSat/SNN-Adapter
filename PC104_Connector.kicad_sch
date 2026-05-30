@@ -1613,7 +1613,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
+		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1638,7 +1638,7 @@
 					)
 				)
 			)
-			(property "Value" "+3V3"
+			(property "Value" "+5V"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1670,7 +1670,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1692,7 +1692,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(symbol "+5V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1730,7 +1730,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1867,121 +1867,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "[3] CSKB"
 		(exclude_from_sim no)
@@ -2000,18 +1885,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "171c5a6d-40af-44cf-a7dd-1427b635cb5c")
-	)
-	(junction
-		(at 162.56 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c6254b2-2bad-4ea7-a2cb-973a8c4c4260")
-	)
-	(junction
-		(at 160.02 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91017d1e-71e4-4716-9746-3097dab1ab82")
 	)
 	(no_connect
 		(at 142.24 58.42)
@@ -2044,10 +1917,6 @@
 	(no_connect
 		(at 154.94 100.33)
 		(uuid "1a0206cf-d676-4a6f-9a92-6ce0a526a01d")
-	)
-	(no_connect
-		(at 152.4 58.42)
-		(uuid "1ba6f538-ea79-431e-b9e4-c92e02e3b5d5")
 	)
 	(no_connect
 		(at 132.08 58.42)
@@ -2114,6 +1983,10 @@
 		(uuid "39258257-26d1-4b17-830c-3babd4dc457f")
 	)
 	(no_connect
+		(at 160.02 58.42)
+		(uuid "3adb8686-fae6-405d-ac67-53b663d63d9f")
+	)
+	(no_connect
 		(at 162.56 58.42)
 		(uuid "45fd93de-2372-4cf8-912f-19d5cb425513")
 	)
@@ -2160,6 +2033,10 @@
 	(no_connect
 		(at 134.62 100.33)
 		(uuid "67ce4890-1429-41d2-92b4-7f1f29437352")
+	)
+	(no_connect
+		(at 162.56 71.12)
+		(uuid "69816779-ce17-4105-b8be-9b31e50236c1")
 	)
 	(no_connect
 		(at 165.1 58.42)
@@ -2238,16 +2115,16 @@
 		(uuid "8f38163d-d001-421d-bf25-cd1c870ae6ea")
 	)
 	(no_connect
+		(at 160.02 71.12)
+		(uuid "91aee71b-bcdd-4413-8764-2beead119f97")
+	)
+	(no_connect
 		(at 134.62 58.42)
 		(uuid "951c3594-9457-4938-b9c3-76321a6229a1")
 	)
 	(no_connect
 		(at 127 58.42)
 		(uuid "96f93c68-9624-4aa6-af84-ba5532f51eb0")
-	)
-	(no_connect
-		(at 152.4 71.12)
-		(uuid "982eff30-0955-4d3e-825f-ccb20d44d313")
 	)
 	(no_connect
 		(at 157.48 100.33)
@@ -2393,16 +2270,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 72.39) (xy 162.56 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a1a7fac-e326-4d46-a35f-31711ef19106")
-	)
-	(wire
-		(pts
 			(xy 144.78 72.39) (xy 144.78 71.12)
 		)
 		(stroke
@@ -2413,23 +2280,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 72.39) (xy 160.02 71.12)
+			(xy 152.4 72.39) (xy 152.4 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "547e4824-d250-41ac-b5b6-8d84d18a3af8")
-	)
-	(wire
-		(pts
-			(xy 162.56 73.66) (xy 162.56 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b64b51b-3155-47b5-99f0-14b14634400a")
+		(uuid "61a259c4-de83-4b71-9b74-8f0139354c70")
 	)
 	(wire
 		(pts
@@ -2450,16 +2307,6 @@
 			(type default)
 		)
 		(uuid "9bec1637-7fa1-4376-8958-ff001f2a77e6")
-	)
-	(wire
-		(pts
-			(xy 162.56 72.39) (xy 160.02 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e933879-1f82-4150-ac52-47276b28d20e")
 	)
 	(wire
 		(pts
@@ -2503,16 +2350,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 57.15) (xy 160.02 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ead1a0c0-2f6b-4dba-8bee-f33300e3efea")
-	)
-	(wire
-		(pts
 			(xy 147.32 73.66) (xy 147.32 72.39)
 		)
 		(stroke
@@ -2530,6 +2367,16 @@
 			(type default)
 		)
 		(uuid "ebfcf5d2-cdf9-4662-b289-16f36be82bd5")
+	)
+	(wire
+		(pts
+			(xy 152.4 57.15) (xy 152.4 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f649ef75-3a5f-4aed-bb32-358d14e65011")
 	)
 	(wire
 		(pts
@@ -2585,7 +2432,7 @@
 		)
 		(uuid "4ac016e2-f251-4511-b1b4-1ab02b4ca4ce")
 	)
-	(hierarchical_label "RESETREQ"
+	(hierarchical_label "RESET"
 		(shape output)
 		(at 119.38 99.06 90)
 		(effects
@@ -2685,8 +2532,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 160.02 57.15 0)
+		(lib_id "power:+5V")
+		(at 152.4 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2694,87 +2541,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5e75baf1-ddb4-4f9d-a7d9-70e7a2884d0c")
-		(property "Reference" "#PWR04"
-			(at 160.02 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 160.02 54.102 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 160.02 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "76626062-561e-44e1-b8cf-b106970e1822")
-		)
-		(instances
-			(project "adapter-pcb"
-				(path "/94da9b83-1146-4f01-8e34-8153765b0257/6da06bd5-7839-43dd-9065-41aec0431e8e"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 162.56 73.66 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "68d5590c-190f-4bc1-af0b-f8ae0036ecbc")
+		(uuid "5fd1def6-cdc8-4055-a83a-f9a503bcc3e5")
 		(property "Reference" "#PWR03"
-			(at 162.56 69.85 0)
+			(at 152.4 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2784,19 +2553,18 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 162.56 76.708 90)
+		(property "Value" "+5V"
+			(at 152.4 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 73.66 0)
+			(at 152.4 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2807,7 +2575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 73.66 0)
+			(at 152.4 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2817,8 +2585,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 162.56 73.66 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 152.4 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2829,7 +2597,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e5d30ab0-b15b-4a79-aed1-3d81c8edcd8a")
+			(uuid "3dce0747-3313-4ba2-9948-25b70f85e085")
 		)
 		(instances
 			(project "adapter-pcb"
@@ -2913,6 +2681,83 @@
 			(project "adapter-pcb"
 				(path "/94da9b83-1146-4f01-8e34-8153765b0257/6da06bd5-7839-43dd-9065-41aec0431e8e"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 152.4 72.39 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a053ca77-c766-4167-97ef-d28ad5c547ef")
+		(property "Reference" "#PWR04"
+			(at 152.4 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 152.4 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 152.4 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca83d87a-6df4-48ca-90da-6c0aba95f04f")
+		)
+		(instances
+			(project "adapter-pcb"
+				(path "/94da9b83-1146-4f01-8e34-8153765b0257/6da06bd5-7839-43dd-9065-41aec0431e8e"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3175,83 +3020,6 @@
 			(project "adapter-pcb"
 				(path "/94da9b83-1146-4f01-8e34-8153765b0257/6da06bd5-7839-43dd-9065-41aec0431e8e"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 160.02 72.39 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "defc9df8-509a-4686-919b-79f66817f244")
-		(property "Reference" "#FLG01"
-			(at 160.02 74.295 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 160.02 80.01 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 160.02 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9439ef11-8cc9-4aa7-8916-52f4652ac709")
-		)
-		(instances
-			(project "adapter-pcb"
-				(path "/94da9b83-1146-4f01-8e34-8153765b0257/6da06bd5-7839-43dd-9065-41aec0431e8e"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)

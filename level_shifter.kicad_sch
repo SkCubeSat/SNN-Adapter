@@ -870,6 +870,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1016,12 +1155,6 @@
 		(color 0 0 0 0)
 		(uuid "47a2d1a9-e1c0-4d38-8dd2-25e3ae28fc9b")
 	)
-	(junction
-		(at 181.61 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "764d7c9e-58cb-4a79-9108-66f1539397d3")
-	)
 	(wire
 		(pts
 			(xy 124.46 59.69) (xy 124.46 60.96)
@@ -1134,16 +1267,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 59.69) (xy 181.61 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8108c6d0-afb2-4371-b364-3e7cd021cc86")
-	)
-	(wire
-		(pts
 			(xy 125.73 80.01) (xy 125.73 77.47)
 		)
 		(stroke
@@ -1174,16 +1297,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 69.85) (xy 191.77 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc9460ea-04d9-4444-ab1f-c5e150ddc6eb")
-	)
-	(wire
-		(pts
 			(xy 107.95 67.31) (xy 107.95 69.85)
 		)
 		(stroke
@@ -1194,13 +1307,23 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 68.58) (xy 181.61 69.85)
+			(xy 209.55 73.66) (xy 209.55 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cbc0d60e-f0dc-41ae-80af-ee4cbf55a3cf")
+		(uuid "ca674d8e-7979-462e-aec8-533644bb8e19")
+	)
+	(wire
+		(pts
+			(xy 209.55 63.5) (xy 209.55 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9304ef3-d18f-418d-a374-0314fb60d89d")
 	)
 	(wire
 		(pts
@@ -1244,7 +1367,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 69.85) (xy 191.77 68.58)
+			(xy 181.61 69.85) (xy 181.61 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1298,7 +1421,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 181.61 64.77 0)
+		(at 209.55 68.58 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1308,7 +1431,7 @@
 		(dnp no)
 		(uuid "1783cfed-5a88-4086-b478-960f4a80f45b")
 		(property "Reference" "C8"
-			(at 184.15 63.5 0)
+			(at 207.01 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1319,7 +1442,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 184.15 65.532 0)
+			(at 207.01 67.818 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1330,7 +1453,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 182.5752 68.58 0)
+			(at 208.5848 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1341,7 +1464,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 64.77 0)
+			(at 209.55 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1352,7 +1475,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 181.61 64.77 0)
+			(at 209.55 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1363,7 +1486,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata Electronics"
-			(at 181.61 64.77 0)
+			(at 209.55 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1374,7 +1497,7 @@
 			)
 		)
 		(property "External Part Number" "GCM188R71E105KA64D"
-			(at 181.61 64.77 0)
+			(at 209.55 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1385,7 +1508,7 @@
 			)
 		)
 		(property "MPN" "C85862"
-			(at 181.61 64.77 0)
+			(at 209.55 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1412,7 +1535,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.61 59.69 180)
+		(at 209.55 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1422,7 +1545,7 @@
 		(dnp no)
 		(uuid "346b8824-a347-4221-80e9-7e19b4fa6ca5")
 		(property "Reference" "#PWR047"
-			(at 181.61 53.34 0)
+			(at 209.55 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1433,7 +1556,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 56.134 0)
+			(at 209.55 77.216 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1443,7 +1566,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 59.69 0)
+			(at 209.55 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1454,7 +1577,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 59.69 0)
+			(at 209.55 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1465,7 +1588,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 59.69 0)
+			(at 209.55 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2439,7 +2562,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 191.77 68.58 0)
+		(at 181.61 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2449,7 +2572,7 @@
 		(dnp no)
 		(uuid "9f257910-f6d2-4287-9528-3ce3c2ad4ee7")
 		(property "Reference" "#PWR037"
-			(at 191.77 72.39 0)
+			(at 181.61 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2460,7 +2583,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 191.008 65.024 0)
+			(at 180.848 56.134 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2470,7 +2593,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 68.58 0)
+			(at 181.61 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2481,7 +2604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 68.58 0)
+			(at 181.61 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2492,7 +2615,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 191.77 68.58 0)
+			(at 181.61 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2509,6 +2632,84 @@
 			(project "adapter-pcb"
 				(path "/94da9b83-1146-4f01-8e34-8153765b0257/cf109836-ab8e-48e3-a0ed-36c6666f071e"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 209.55 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f111f11f-e810-4033-948c-7aac506680ec")
+		(property "Reference" "#PWR052"
+			(at 209.55 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 209.55 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 209.55 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d61caed3-3dfb-4968-a096-f980b92cc213")
+		)
+		(instances
+			(project "adapter-pcb"
+				(path "/94da9b83-1146-4f01-8e34-8153765b0257/cf109836-ab8e-48e3-a0ed-36c6666f071e"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)

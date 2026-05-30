@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -131,7 +131,7 @@
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.152,
-        "min_connection": 0.1,
+        "min_connection": 0.152,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.254,
@@ -234,14 +234,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.4064,
-          "drill": 0.2032
-        },
-        {
-          "diameter": 0.4572,
-          "drill": 0.254
         },
         {
           "diameter": 0.61,
@@ -526,8 +518,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1524,
         "tuning_profile": "",
-        "via_diameter": 0.4572,
-        "via_drill": 0.254,
+        "via_diameter": 0.61,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -768,7 +760,7 @@
         "uuid": "94da9b83-1146-4f01-8e34-8153765b0257"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#FLG1",
     "variants": []
   },
   "sheets": [
