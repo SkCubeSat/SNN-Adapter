@@ -2071,7 +2071,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "  Texas Instruments"
+		(property "MANUFACTURER" "Texas Instruments"
 			(at 128.27 72.39 0)
 			(hide yes)
 			(show_name no)
