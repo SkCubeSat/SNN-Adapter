@@ -627,14 +627,14 @@
         },
         {
           "group_by": false,
-          "label": "External Part Number",
-          "name": "External Part Number",
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
           "show": true
         },
         {
           "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
+          "label": "External Part Num",
+          "name": "External Part Num",
           "show": true
         },
         {
@@ -709,7 +709,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": false,
-      "sort_field": "Datasheet"
+      "sort_field": "MPN"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -760,7 +760,7 @@
         "uuid": "94da9b83-1146-4f01-8e34-8153765b0257"
       }
     ],
-    "used_designators": "",
+    "used_designators": "JP3-8",
     "variants": []
   },
   "sheets": [

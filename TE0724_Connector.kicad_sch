@@ -9000,6 +9000,28 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 129.54 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPS79933QDDCRQ1"
+			(at 129.54 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "35c6944d-febb-49c6-a7b6-d365ef7ad285")
 		)
@@ -9679,7 +9701,7 @@
 				(justify bottom)
 			)
 		)
-		(property "External Part Number" "SS5-80-3.50-L-D-K-TR "
+		(property "MPN" "SS5-80-3.50-L-D-K-TR "
 			(at 97.79 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -9690,7 +9712,7 @@
 				)
 			)
 		)
-		(property "MPN" "C5292077"
+		(property "External Part Num" "C5292077"
 			(at 97.79 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10574,17 +10596,6 @@
 				)
 			)
 		)
-		(property "External Part Number" ""
-			(at 96.52 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 96.52 172.72 0)
 			(hide yes)
@@ -10989,17 +11000,6 @@
 				)
 			)
 		)
-		(property "External Part Number" ""
-			(at 96.52 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 96.52 170.18 0)
 			(hide yes)
@@ -11103,7 +11103,7 @@
 				)
 			)
 		)
-		(property "External Part Number" "GCM188R71H104KA57J"
+		(property "MPN" "GCM188R71H104KA57J"
 			(at 256.54 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -11114,7 +11114,7 @@
 				)
 			)
 		)
-		(property "MPN" "C3011652"
+		(property "External Part Num" "C3011652"
 			(at 256.54 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -11274,6 +11274,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 254 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Vishay"
+			(at 254 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MCS0402MD1000BE100"
+			(at 254 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11443,17 +11465,6 @@
 				)
 			)
 		)
-		(property "External Part Number" "GCM31MR71H105KA55L"
-			(at 163.83 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MANUFACTURER" "Murata Electronics"
 			(at 163.83 170.18 0)
 			(hide yes)
@@ -11465,7 +11476,18 @@
 				)
 			)
 		)
-		(property "MPN" "C85867"
+		(property "MPN" "GCM31MR71H105KA55L"
+			(at 163.83 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "External Part Num" "C85867"
 			(at 163.83 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -11561,17 +11583,6 @@
 				)
 			)
 		)
-		(property "External Part Number" "2N7002KQ-7"
-			(at 265.43 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MANUFACTURER" "DIODES"
 			(at 265.43 144.78 0)
 			(hide yes)
@@ -11583,7 +11594,18 @@
 				)
 			)
 		)
-		(property "MPN" "C111971"
+		(property "MPN" "2N7002KQ-7"
+			(at 265.43 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "External Part Num" "C111971"
 			(at 265.43 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -11757,6 +11779,28 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" "Vishay"
+			(at 215.9 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MCS0402MD1003BE100"
+			(at 215.9 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "772fdcaf-010d-4eb8-8586-42381970339e")
 		)
@@ -11839,17 +11883,6 @@
 				)
 			)
 		)
-		(property "External Part Number" "GCM188R71H104KA57J"
-			(at 128.27 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MANUFACTURER" "Murata Electronics"
 			(at 128.27 176.53 0)
 			(hide yes)
@@ -11861,7 +11894,18 @@
 				)
 			)
 		)
-		(property "MPN" "C3011652"
+		(property "MPN" "GCM188R71H104KA57J"
+			(at 128.27 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "External Part Num" "C3011652"
 			(at 128.27 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -12108,6 +12152,28 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" "Vishay"
+			(at 209.55 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MCS0402MD1000BE100"
+			(at 209.55 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0db81bea-a462-4a14-9210-2458e2105e89")
 		)
@@ -12270,17 +12336,6 @@
 				)
 			)
 		)
-		(property "External Part Number" "2N7002KQ-7"
-			(at 223.52 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MANUFACTURER" "DIODES"
 			(at 223.52 144.78 0)
 			(hide yes)
@@ -12292,7 +12347,18 @@
 				)
 			)
 		)
-		(property "MPN" "C111971"
+		(property "MPN" "2N7002KQ-7"
+			(at 223.52 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "External Part Num" "C111971"
 			(at 223.52 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -12774,17 +12840,6 @@
 				)
 			)
 		)
-		(property "External Part Number" "GCM31MR71H105KA55L"
-			(at 119.38 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MANUFACTURER" "Murata Electronics"
 			(at 119.38 176.53 0)
 			(hide yes)
@@ -12796,7 +12851,18 @@
 				)
 			)
 		)
-		(property "MPN" "C85867"
+		(property "MPN" "GCM31MR71H105KA55L"
+			(at 119.38 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "External Part Num" "C85867"
 			(at 119.38 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -13265,17 +13331,6 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 46.99 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "External Part Number" ""
 			(at 46.99 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -13783,6 +13838,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 259.08 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Vishay"
+			(at 259.08 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MCS0402MD1003BE100"
 			(at 259.08 149.86 0)
 			(hide yes)
 			(show_name no)

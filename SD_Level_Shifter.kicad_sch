@@ -1740,7 +1740,7 @@
 				)
 			)
 		)
-		(property "External Part Number" "TXS02612RTWR"
+		(property "MPN" "TXS02612RTWR"
 			(at 113.03 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -1751,7 +1751,7 @@
 				)
 			)
 		)
-		(property "MPN" "C140276"
+		(property "External Part Num" "C140276"
 			(at 113.03 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -2145,18 +2145,7 @@
 				)
 			)
 		)
-		(property "External Part Number" "GCM188R71H104KA57J"
-			(at 128.27 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "C3011652"
+		(property "MPN" "GCM188R71H104KA57J"
 			(at 128.27 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2168,6 +2157,17 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata Electronics"
+			(at 128.27 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "External Part Num" "C3011652"
 			(at 128.27 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2337,18 +2337,7 @@
 				)
 			)
 		)
-		(property "External Part Number" "GCM188R71H104KA57J"
-			(at 170.18 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "C3011652"
+		(property "MPN" "GCM188R71H104KA57J"
 			(at 170.18 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2360,6 +2349,17 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata Electronics"
+			(at 170.18 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "External Part Num" "C3011652"
 			(at 170.18 54.61 0)
 			(hide yes)
 			(show_name no)

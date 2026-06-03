@@ -1427,7 +1427,7 @@
 				)
 			)
 		)
-		(property "External Part Number" "MCS0402MD1002BE100"
+		(property "MPN" "MCS0402MD1002BE100"
 			(at 175.006 76.962 0)
 			(hide yes)
 			(show_name no)
@@ -1438,7 +1438,7 @@
 				)
 			)
 		)
-		(property "MPN" "C2073498"
+		(property "External Part Num" "C2073498"
 			(at 175.006 76.962 0)
 			(hide yes)
 			(show_name no)
@@ -1631,7 +1631,7 @@
 				)
 			)
 		)
-		(property "External Part Number" "ltc4300a1ims8"
+		(property "MPN" "ltc4300a1ims8"
 			(at 133.35 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -1642,7 +1642,7 @@
 				)
 			)
 		)
-		(property "MPN" "C580853"
+		(property "External Part Num" "C580853"
 			(at 133.35 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -1764,7 +1764,7 @@
 				)
 			)
 		)
-		(property "External Part Number" "MCS0402MD1002BE100"
+		(property "MPN" "MCS0402MD1002BE100"
 			(at 120.65 76.708 0)
 			(hide yes)
 			(show_name no)
@@ -1775,7 +1775,7 @@
 				)
 			)
 		)
-		(property "MPN" "C2073498"
+		(property "External Part Num" "C2073498"
 			(at 120.65 76.708 0)
 			(hide yes)
 			(show_name no)
@@ -1879,7 +1879,7 @@
 				)
 			)
 		)
-		(property "External Part Number" "MCS0402MD1002BE100"
+		(property "MPN" "MCS0402MD1002BE100"
 			(at 165.354 76.708 0)
 			(hide yes)
 			(show_name no)
@@ -1890,7 +1890,7 @@
 				)
 			)
 		)
-		(property "MPN" "C2073498"
+		(property "External Part Num" "C2073498"
 			(at 165.354 76.708 0)
 			(hide yes)
 			(show_name no)
@@ -1994,7 +1994,7 @@
 				)
 			)
 		)
-		(property "External Part Number" "MCS0402MD1002BE100"
+		(property "MPN" "MCS0402MD1002BE100"
 			(at 128.778 76.454 0)
 			(hide yes)
 			(show_name no)
@@ -2005,7 +2005,7 @@
 				)
 			)
 		)
-		(property "MPN" "C2073498"
+		(property "External Part Num" "C2073498"
 			(at 128.778 76.454 0)
 			(hide yes)
 			(show_name no)
@@ -2186,7 +2186,7 @@
 				)
 			)
 		)
-		(property "External Part Number" "GCM155R71H103KA55J"
+		(property "MPN" "GCM155R71H103KA55J"
 			(at 131.572 66.802 90)
 			(hide yes)
 			(show_name no)
@@ -2197,7 +2197,7 @@
 				)
 			)
 		)
-		(property "MPN" "C2168451"
+		(property "External Part Num" "C2168451"
 			(at 131.572 66.802 90)
 			(hide yes)
 			(show_name no)

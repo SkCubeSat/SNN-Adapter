@@ -1496,7 +1496,7 @@
 				)
 			)
 		)
-		(property "External Part Number" "GCM188R71E105KA64D"
+		(property "MPN" "GCM188R71E105KA64D"
 			(at 209.55 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -1507,7 +1507,7 @@
 				)
 			)
 		)
-		(property "MPN" "C85862"
+		(property "External Part Num" "C85862"
 			(at 209.55 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -1831,18 +1831,7 @@
 				)
 			)
 		)
-		(property "External Part Number" "MCS0402MD1002BE100"
-			(at 167.64 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "C2073498"
+		(property "MPN" "MCS0402MD1002BE100"
 			(at 167.64 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1854,6 +1843,17 @@
 			)
 		)
 		(property "MANUFACTURER" "Vishay"
+			(at 167.64 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "External Part Num" "C2073498"
 			(at 167.64 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1956,7 +1956,7 @@
 				)
 			)
 		)
-		(property "External Part Number" "GCM188R71H104KA57J"
+		(property "MPN" "GCM188R71H104KA57J"
 			(at 170.18 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -1967,7 +1967,7 @@
 				)
 			)
 		)
-		(property "MPN" "C3011652"
+		(property "External Part Num" "C3011652"
 			(at 170.18 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -2082,7 +2082,7 @@
 				)
 			)
 		)
-		(property "External Part Number" "TXS0102QDCURQ1"
+		(property "MPN" "TXS0102QDCURQ1"
 			(at 128.27 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -2093,7 +2093,7 @@
 				)
 			)
 		)
-		(property "MPN" "C2652939"
+		(property "External Part Num" "C2652939"
 			(at 128.27 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -2368,7 +2368,7 @@
 				)
 			)
 		)
-		(property "External Part Number" "GCM188R71H104KA57J"
+		(property "MPN" "GCM188R71H104KA57J"
 			(at 124.46 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -2379,7 +2379,7 @@
 				)
 			)
 		)
-		(property "MPN" "C3011652"
+		(property "External Part Num" "C3011652"
 			(at 124.46 64.77 0)
 			(hide yes)
 			(show_name no)
