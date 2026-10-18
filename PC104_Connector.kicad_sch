@@ -2524,7 +2524,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 125.73) (xy 137.16 124.46)
+			(xy 137.16 128.27) (xy 137.16 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2593,8 +2593,8 @@
 		)
 		(uuid "11fa377c-51de-46cc-8eee-cfe1defa0ec8")
 	)
-	(hierarchical_label "UART-RXD LS"
-		(shape output)
+	(hierarchical_label "UART-TXD LS"
+		(shape input)
 		(at 137.16 88.9 90)
 		(effects
 			(font
@@ -2602,7 +2602,7 @@
 			)
 			(justify left)
 		)
-		(uuid "3cfce159-fd82-444e-a6d4-8a626a124bfc")
+		(uuid "3e725d40-e876-4b40-8c49-6240bd35287a")
 	)
 	(hierarchical_label "I2C_SDA_CSKB"
 		(shape bidirectional)
@@ -2615,17 +2615,6 @@
 		)
 		(uuid "49edcf4e-8406-470d-a9ab-0fa864261b14")
 	)
-	(hierarchical_label "UART-TXD LS"
-		(shape input)
-		(at 137.16 125.73 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4ac016e2-f251-4511-b1b4-1ab02b4ca4ce")
-	)
 	(hierarchical_label "I2C_SCL_CSKB"
 		(shape output)
 		(at 154.94 90.17 90)
@@ -2636,6 +2625,17 @@
 			(justify left)
 		)
 		(uuid "9a4378fb-344f-40ae-88d1-bc2bdcae7cbc")
+	)
+	(hierarchical_label "UART-RXD LS"
+		(shape output)
+		(at 137.16 128.27 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d3b64307-770b-4e9c-b3cc-32c43594ca03")
 	)
 	(hierarchical_label "I2C_SDA_CSKB"
 		(shape bidirectional)
