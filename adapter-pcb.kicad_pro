@@ -571,7 +571,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/Hunter/Desktop/gerber/",
+      "plot": "pcbway_production/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "adapter-pcb.step",
